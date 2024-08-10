@@ -18,7 +18,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Server Dependencies
-        run: npm installed
+        run: npm install
 
       - name: Execute tests
         run: npm run test 
