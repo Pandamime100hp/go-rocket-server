@@ -11,6 +11,8 @@ import getData from './src/utility/data/getData.js'
 import process from 'process'
 import dotenv from 'dotenv'
 
+// ==================================================================
+
 // VARIABLES
 dotenv.config()
 const app = express()
